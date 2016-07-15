@@ -107,12 +107,8 @@
 
                    :source-paths ["env/dev/clj"]
                    :plugins [[lein-figwheel "0.5.4-5"]
-                             [cider/cider-nrepl "0.10.0-SNAPSHOT"]
                              [org.clojure/tools.namespace "0.3.0-alpha2"
-                              :exclusions [org.clojure/tools.reader]]
-                             [refactor-nrepl "2.0.0-SNAPSHOT"
-                              :exclusions [org.clojure/clojure]]
-                             ]
+                              :exclusions [org.clojure/tools.reader]]]
 
                    :injections [(require 'pjstadig.humane-test-output)
                                 (pjstadig.humane-test-output/activate!)]
