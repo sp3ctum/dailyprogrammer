@@ -13,3 +13,6 @@ pom.xml.asc
 .lein-plugins/
 .lein-failures
 .nrepl-port
+/.cljs_rhino_repl/
+/.lein-env
+/figwheel_server.log
